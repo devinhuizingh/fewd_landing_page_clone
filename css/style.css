@@ -1,0 +1,14 @@
+body {
+	background-color: lightgray;
+}
+div {border: 1px solid chocolate;
+}
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
