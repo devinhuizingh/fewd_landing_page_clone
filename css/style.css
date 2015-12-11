@@ -1,7 +1,14 @@
+
 body {
 	background-color: lightgray;
 }
 div {border: 1px solid chocolate;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 /* Navigation Section */
 .top-navigation {
@@ -11,4 +18,26 @@ div {border: 1px solid chocolate;
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0em 15px;
 }
+.top-navigation > .content > .links {
+	float: right;
+
+}
+li {display: inline-block;
+padding-right: 1em
+}
+.top-navigation .logo {
+    height: 4.375em;
+}
+.top-navigation .links {
+    margin-top: 25px;
+}
+.top-navigation .links >.active {
+	color: #35373D;
+    font-weight: 450;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: purple;
+    font-weight: 450;}
