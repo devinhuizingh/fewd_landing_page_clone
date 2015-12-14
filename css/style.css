@@ -1,9 +1,5 @@
 
-body {
-	background-color: lightgray;
-}
-div {border: 1px solid chocolate;
-}
+
 html {
   box-sizing: border-box;
 }
@@ -13,6 +9,9 @@ html {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content{ 
@@ -30,14 +29,14 @@ width: 970px;
 	float: right;
 
 }
-li {display: inline-block;
+.top-navigation li {display: inline-block;
 padding-right: 1.3em
 }
 .top-navigation .logo {
     height: 4.375em;
 }
 .top-navigation .links {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .top-navigation .links >.active {
 	color: #4c5058;
@@ -80,4 +79,21 @@ padding-right: 1.3em
 .introduction button:hover {
 	background-color: #d9400e;
 	cursor: pointer;
+}
+
+.cases h2 {
+	margin-top: 5em;
+	text-align: center;
+	font-size: 2.6em;
+} 
+
+.cases .devices >li {
+	width: 33.33333333%;
+	display: inline-block;
+	text-align: center;
+		
+}
+.cases .devices h3 {
+	font-size: 1.7em
+	margin: 2.5rem 0px 1.875rem;
 }
