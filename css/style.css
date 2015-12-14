@@ -41,24 +41,43 @@ padding-right: 1.3em
 }
 .top-navigation .links >.active {
 	color: #4c5058;
-    font-weight: 500;
-
+    font-weight: bold;
+    
 }
 .top-navigation .links li:hover {
 	cursor: pointer;
-	color: color: #333333;
+	color: #333333;
     font-weight: 450;}
 
 .introduction {
 	background-image: url('../images/first-background copy.jpg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	height: 500px;
+	height: 650px;
+	overflow: auto;
 }
 .introduction h1,
-.introduction h3 {
+.introduction h3,
+.introduction  {
  	color: white;
  	text-align: center; }
 
- .introduction h1 {font-size: 3em}
+ .introduction h1 {font-size: 3em;
+ 	margin-top: 3.7em}
 .introduction h3 {font-size: 1.5em}
+
+.introduction button {
+	width: 9.688em;
+	margin: 0 auto;
+	background-color: #f15a29;
+	color: white;
+	padding: 1em 1.5em;
+	border-radius: 4px;
+	border-style: none;
+	margin-top: 1.3em;
+
+}
+.introduction button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
