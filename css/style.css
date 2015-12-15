@@ -82,7 +82,7 @@ padding-right: 1.3em
 }
 
 .cases h2 {
-	margin-top: 5em;
+	margin-top: 4em;
 	text-align: center;
 	font-size: 2.6em;
 } 
@@ -96,4 +96,27 @@ padding-right: 1.3em
 .cases .devices h3 {
 	font-size: 1.7em
 	margin: 2.5rem 0px 1.875rem;
+	padding-bottom: 10em;
 }
+
+.social {
+	padding-top: 19em;
+}
+.content .icons li {
+	text-align: center;
+	color: #4c66a4;
+	display: inline-block;
+	font-size: 1.5em;
+	border-radius: 1.25em;
+	width: 2.5em;
+	height: 2.5em;
+	border-style: solid;
+	border-color: #eaebec;
+	padding: .59em;
+		
+}
+
+h4 {color: gray}
+.social >.content {
+	text-align: center;
+	}
