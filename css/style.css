@@ -116,6 +116,9 @@ padding-right: 1.3em
 		
 }
 
+.content ul {
+	padding-left: 0;
+}
 h4 {color: gray}
 .social >.content {
 	text-align: center;
